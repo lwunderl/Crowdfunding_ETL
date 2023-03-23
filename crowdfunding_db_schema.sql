@@ -29,6 +29,7 @@ CREATE TABLE campaigns(
 	description VARCHAR(100),
 	goal DECIMAL,
 	pledged DECIMAL,
+	outcome VARCHAR(10),
 	backers_count INT,
 	country VARCHAR(2),
 	currency VARCHAR(3),
